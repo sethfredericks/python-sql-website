@@ -18,16 +18,17 @@
     <img class="img-fluid" id="banner" src="/static/banner.jpg">
     <div id="container">
     <h1 class="text-center mt-2 mb-4">Careers</h1>
-      <div class="row" style="margin-bottom:16px">
+      <div class="row" style="margin-bottom:16px; margin-left:100px;">
         <div class="col-md-6">
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="lead">Congratulations on completing your studies and stepping into the exciting world of technology! Our platform is designed to help you seamlessly transition from academic life to a thriving career in tech. Whether you're a software developer, data scientist, network engineer, or cybersecurity expert, we have the resources and connections to help you land your dream job.<br>Why Choose Us?<br>
+    1. Tailored Job Listings: We partner with top tech companies to bring you the latest job openings that match your skills and career goals. Our curated job listings are updated daily to ensure you never miss an opportunity.<br>2. Resume Builder: Crafting the perfect resume is crucial. Our easy-to-use resume builder helps you create a professional and impactful resume that highlights your strengths and achievements.<br>3. Skill Assessments: Demonstrate your expertise with our range of skill assessments. Get certified in the latest technologies and show potential employers that you have what it takes.<br>4. Networking Opportunities: Connect with industry professionals, join tech forums, and attend exclusive webinars to expand your professional network.<br>5. Career Guidance: Our career advisors are here to support you with personalized advice, interview preparation, and career planning. We're committed to helping you succeed.</p>
         </div>
         <div class="d-none d-md-block col-md-6">
-          <img src="/static/workers.jpg" style="height:320px;  border-radius:4px;"">
+          <img src="/static/workers.jpg" style="height:320px;  border-radius:4px;">
         </div>
       </div>
     <h2 class="text-center mt-2 mb-4">Open Positions</h2>
-    <p>
+    <p style="margin-left: 100px">
       {% for job in jobs %}
         {% include 'jobs.html' %}
       {% endfor %}
